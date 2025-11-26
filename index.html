@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parth — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#">Parth</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h1>Hi, I’m Parth</h1>
+      <p class="sub">BCA student exploring full‑stack development and practical coding projects.</p>
+      <a class="btn" href="https://github.com/your-github-username" target="_blank" rel="noopener">View GitHub</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About me</h2>
+        <p>
+          I’m building skills across front-end and back-end, focusing on clean code and real-world projects.
+          I enjoy turning ideas into useful web apps and learning by doing.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Basic computer</h3>
+            <p>Operating systems, file management, productivity tools, internet basics.</p>
+          </div>
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Semantic structure, accessibility, forms, SEO-friendly markup.</p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Responsive layouts, Flexbox/Grid, animations, utility classes.</p>
+          </div>
+          <div class="skill-card">
+            <h3>C+</h3>
+            <p>Fundamentals: variables, control flow, functions, basic algorithms.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Java</h3>
+            <p>OOP basics, collections, error handling, simple CLI apps.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Python</h3>
+            <p>Scripting, data handling, standard libraries, simple automation.</p>
+          </div>
+        </div>
+
+        <div class="pill-row">
+          <span class="pill">Full‑stack development</span>
+          <span class="pill">Version control (Git)</span>
+          <span class="pill">Problem solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Today program</h3>
+              <span class="status">Active</span>
+            </div>
+            <p>A simple full‑stack learning project: daily tasks, notes, and progress tracking.</p>
+            <a class="link" href="https://github.com/your-github-username/today-program" target="_blank" rel="noopener">GitHub repository →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Portfolio website</h3>
+              <span class="status">Updated</span>
+            </div>
+            <p>This site—built with HTML and CSS, optimized for mobile first with clean semantics.</p>
+            <a class="link" href="https://github.com/your-github-username/portfolio" target="_blank" rel="noopener">GitHub repository →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Open to collaborations and internships. Reach out anytime.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> your.email@example.com</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/your-github-username" target="_blank" rel="noopener">github.com/your-github-username</a></li>
+          <li><strong>Location:</strong> Daskroi, Gujarat, India</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Parth. Built with HTML & CSS.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
